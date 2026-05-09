@@ -1,0 +1,5 @@
+.hero { margin-bottom: 28px; }
+.title { font-size: 28px; font-weight: 700; color: #003087; margin: 0 0 8px; }
+.subtitle { font-size: 15px; color: #666; margin: 0; }
+.state { text-align: center; padding: 60px; color: #888; font-size: 16px; }
+.error { background: #ffebee; color: #c62828; padding: 16px 20px; border-radius: 12px; font-size: 14px; }

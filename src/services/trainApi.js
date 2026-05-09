@@ -1,6 +1,7 @@
 import axios from 'axios'
 
 const BASE_URL = 'http://localhost:3001'
+
 const api = axios.create({ baseURL: BASE_URL })
 
 // Отримання списку рейсів
@@ -17,17 +18,13 @@ export async function getTrainById(id) {
 
 // Отримання заброньованих місць для конкретного вагона
 export async function getBookedSeats(trainId, wagonId) {
-    const res = await api.get(`/trains/${trainId}`)
-    const wagon = res.data.wagons.find(w => w.id === wagonId)
-    return wagon ? wagon.bookedSeats : []
+    const res = await api.get(`/trains/${trainId}/wagons/${wagonId}/seats`)
+    return res.data.bookedSeats
 }
 
 // Збереження бронювання — сервер сам оновить bookedSeats у вагоні
 export async function saveBooking(bookingData) {
-    const res = await api.post('/bookings', {
-        ...bookingData,
-        createdAt: new Date().toISOString(),
-    })
+    const res = await api.post('/bookings', bookingData)
     return res.data
 }
 
