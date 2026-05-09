@@ -1,0 +1,47 @@
+{
+  "trains": [
+    {
+      "id": 1, "number": "091К", "from": "Київ", "to": "Львів",
+      "departure": "2024-06-15T08:30:00", "arrival": "2024-06-15T14:00:00", "duration": "5 год 30 хв",
+      "wagons": [
+        { "id": "w1", "number": 1, "type": "Купе",     "totalSeats": 36, "bookedSeats": [3,7,12,18,25,30] },
+        { "id": "w2", "number": 2, "type": "Плацкарт", "totalSeats": 54, "bookedSeats": [1,5,9,15,22,31,40,48] },
+        { "id": "w3", "number": 3, "type": "СВ",        "totalSeats": 18, "bookedSeats": [2,8,14] }
+      ]
+    },
+    {
+      "id": 2, "number": "745Л", "from": "Харків", "to": "Одеса",
+      "departure": "2024-06-15T10:00:00", "arrival": "2024-06-15T21:45:00", "duration": "11 год 45 хв",
+      "wagons": [
+        { "id": "w4", "number": 1, "type": "Плацкарт", "totalSeats": 54, "bookedSeats": [2,6,11,19,28,35,42,50] },
+        { "id": "w5", "number": 2, "type": "Купе",     "totalSeats": 36, "bookedSeats": [4,10,16,22] }
+      ]
+    },
+    {
+      "id": 3, "number": "012ІС", "from": "Київ", "to": "Дніпро",
+      "departure": "2024-06-15T14:15:00", "arrival": "2024-06-15T18:30:00", "duration": "4 год 15 хв",
+      "wagons": [
+        { "id": "w6", "number": 1, "type": "СВ",        "totalSeats": 18, "bookedSeats": [1,5,11] },
+        { "id": "w7", "number": 2, "type": "Купе",     "totalSeats": 36, "bookedSeats": [3,9,15,21,27,33] }
+      ]
+    },
+    {
+      "id": 4, "number": "133К", "from": "Львів", "to": "Запоріжжя",
+      "departure": "2024-06-15T22:00:00", "arrival": "2024-06-16T10:45:00", "duration": "12 год 45 хв",
+      "wagons": [
+        { "id": "w8",  "number": 1, "type": "Плацкарт", "totalSeats": 54, "bookedSeats": [1,3,7,13,20,29,38,45,52] },
+        { "id": "w9",  "number": 2, "type": "Купе",     "totalSeats": 36, "bookedSeats": [2,8,14,20,26] },
+        { "id": "w10", "number": 3, "type": "СВ",        "totalSeats": 18, "bookedSeats": [3,9,15] }
+      ]
+    },
+    {
+      "id": 5, "number": "256Р", "from": "Одеса", "to": "Київ",
+      "departure": "2024-06-16T06:00:00", "arrival": "2024-06-16T11:20:00", "duration": "5 год 20 хв",
+      "wagons": [
+        { "id": "w11", "number": 1, "type": "Купе",     "totalSeats": 36, "bookedSeats": [5,11,17,23] },
+        { "id": "w12", "number": 2, "type": "Плацкарт", "totalSeats": 54, "bookedSeats": [4,10,16,24,33,41,49] }
+      ]
+    }
+  ],
+  "bookings": []
+}
