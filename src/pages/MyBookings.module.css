@@ -1,0 +1,22 @@
+.hero { margin-bottom: 28px; }
+.title { font-size: 28px; font-weight: 700; color: #003087; margin: 0 0 8px; }
+.subtitle { font-size: 15px; color: #666; margin: 0; }
+.state { text-align: center; padding: 60px; color: #888; font-size: 16px; }
+.error { background: #ffebee; color: #c62828; padding: 16px 20px; border-radius: 12px; font-size: 14px; }
+.empty { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 80px 0; color: #888; }
+.empty span { font-size: 48px; }
+.empty p { font-size: 16px; margin: 0; }
+.list { display: flex; flex-direction: column; gap: 16px; }
+.card { background: #fff; border-radius: 16px; padding: 20px 24px; box-shadow: 0 2px 12px rgba(0,0,0,.07); border: 1px solid #e8edf5; }
+.cardHeader { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.trainNum { font-weight: 700; font-size: 16px; color: #003087; }
+.date { font-size: 13px; color: #999; }
+.route { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+.city { font-size: 20px; font-weight: 700; color: #1a1a2e; }
+.arrow { font-size: 18px; color: #003087; }
+.details { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; margin-bottom: 16px; }
+.detail { display: flex; flex-direction: column; gap: 2px; }
+.label { font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: .5px; }
+.value { font-size: 14px; color: #333; font-weight: 500; }
+.seatsRow { display: flex; flex-wrap: wrap; gap: 8px; }
+.seat { background: #e3f2fd; color: #003087; font-size: 13px; font-weight: 600; padding: 4px 12px; border-radius: 20px; }
